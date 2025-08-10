@@ -1,11 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1200px" height="600px" font-size="16px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="NerdFontFallback,MaterialDesignIconsDesktop Nerd Font,Material Design Icons Desktop Nerd Font,JetBrainsMono Nerd Font,monospace" width="1200px" height="600px" font-size="16px">
     <style>
         @font-face {
-            src: local('Consolas'), local('Consolas Bold');
-            font-family: 'ConsolasFallback';
+            src: local('MaterialDesignIconsDesktop Nerd Font'), local('Material Design Icons Desktop Nerd Font'), local('JetBrainsMono Nerd Font'), local('FiraCode Nerd Font');
+            font-family: 'NerdFontFallback';
             font-display: swap;
-            -webkit-size-adjust: 109%;
-            size-adjust: 109%;
         }
 
         :root {
@@ -43,13 +41,48 @@
             --statusline3: #E67E80;
         }
 
+        .title {
+            fill: var(--red);
+        }
+
+        .key {
+            fill: var(--purple);
+        }
+
+        .value {
+            fill: var(--green);
+        }
 
         text, tspan {
             white-space: pre;
         }
+
     </style>
 
     <rect width="1100px" height="600px" fill="var(--bg0)" rx="15"/>
+
+    <text x="370" y="30" fill="var(--fg)" class="ascii">
+        <tspan x="470" y="60">┌────────────────── <tspan class="title">User Information</tspan> ──────────────────┐</tspan>
+        <tspan x="470" y="90" class="key">    </tspan><tspan> : </tspan><tspan class="value">fer2o3@github</tspan>
+        <tspan x="470" y="120" class="key">    </tspan><tspan> : </tspan><tspan class="value">fer2o3@github</tspan>
+        <tspan x="470" y="150" class="key">    </tspan><tspan> : </tspan><tspan class="value">fer2o3@github</tspan>
+        <tspan x="470" y="180" class="key">    </tspan><tspan> : </tspan><tspan class="value">fer2o3@github</tspan>
+    </text>
+
+    <defs>
+        <path id="typingPath">
+            <animate attributeName="d" 
+                     from="m70,560 h0" 
+                     to="m70,560 h1500" 
+                     dur="5s" 
+                     begin="0s" 
+                     repeatCount="indefinite"/>
+        </path>
+    </defs>
+
+    <text font-size="20" fill="var(--fg)">
+        <textPath href="#typingPath">I want to be the very best, like no one ever was</textPath>
+    </text>
 
     <text x="-10" y="30" font-size="8" fill="var(--fg)" class="ascii">
         <tspan x="-10" y="30">                                                                                                    </tspan>
