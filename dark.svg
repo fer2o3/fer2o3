@@ -43,6 +43,7 @@
 
         .title {
             fill: var(--red);
+            font-weight: bold;
         }
 
         .key {
@@ -68,17 +69,14 @@
     <rect width="1100px" height="600px" fill="var(--bg0)" rx="15"/>
 
     <text x="370" y="30" fill="var(--fg)" class="ascii">
-        <tspan x="470" y="60" class="title">benjamin<tspan>@</tspan>andre</tspan><tspan> | </tspan><tspan class="title">fer2o3</tspan>
-        <tspan x="470" y="80">-----------------------</tspan>
-        <tspan x="470" y="100" font-weight="bold">USER ➜</tspan><tspan> Benjamin Andre</tspan>
-        <tspan x="470" y="120">├</tspan><tspan class="key"> Kernel</tspan><tspan class="arrow"> ➜ </tspan><tspan>fer2o3@github</tspan>
-        <tspan x="470" y="140">├</tspan><tspan class="key"> Kernel</tspan><tspan class="arrow"> ➜ </tspan><tspan>fer2o3@github</tspan>
-        <tspan x="470" y="160">└</tspan><tspan class="key"> Kernel</tspan><tspan class="arrow"> ➜ </tspan><tspan>fer2o3@github</tspan>
-        <tspan x="470" y="180"></tspan>
-        <tspan x="470" y="200" font-weight="bold">USER ➜</tspan><tspan> Benjamin Andre</tspan>
-        <tspan x="470" y="220">├</tspan><tspan class="key"> Kernel</tspan><tspan font-weight="bold"> ➜ </tspan><tspan>fer2o3@github</tspan>
-        <tspan x="470" y="240">├</tspan><tspan class="key"> Kernel</tspan><tspan font-weight="bold"> ➜ </tspan><tspan>fer2o3@github</tspan>
-        <tspan x="470" y="260">└</tspan><tspan class="key"> Kernel</tspan><tspan font-weight="bold"> ➜ </tspan><tspan>fer2o3@github</tspan>
+        <tspan x="470" y="60" class="title">benjamin<tspan>@</tspan>andre</tspan><tspan> | </tspan><tspan class="title">fer2o3</tspan><tspan> ———————————————————————— </tspan>
+        <tspan x="470" y="80">├</tspan><tspan class="key"> uptime</tspan><tspan> .............................. </tspan><tspan>21 years</tspan>
+        <tspan x="470" y="100">├</tspan><tspan class="key"> location</tspan><tspan> ....................... </tspan><tspan>Paris, France</tspan>
+        <tspan x="470" y="120">├</tspan><tspan class="key"> kernel</tspan><tspan> ........... </tspan><tspan>cryptography, low level dev</tspan>
+        <tspan x="470" y="140">├</tspan><tspan class="key"> status</tspan><tspan> ........................ </tspan><tspan>coffee-powered</tspan>
+        <tspan x="470" y="160">├</tspan><tspan class="key"> studies</tspan><tspan> ....... </tspan><tspan>cyber-security student @ epita</tspan>
+        <tspan x="470" y="180">└</tspan><tspan class="key"> work</tspan><tspan> ................... </tspan><tspan>presales tc @ hp inc.</tspan>
+        <tspan x="470" y="200"></tspan>
     </text>
 
     <defs>
