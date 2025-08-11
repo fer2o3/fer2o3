@@ -47,6 +47,12 @@
 
         .key {
             fill: var(--purple);
+            font-weight: bold;
+        }
+
+        .arrow {
+            font-weight: bold;
+            font-size: 20px;
         }
 
         .value {
@@ -62,11 +68,17 @@
     <rect width="1100px" height="600px" fill="var(--bg0)" rx="15"/>
 
     <text x="370" y="30" fill="var(--fg)" class="ascii">
-        <tspan x="470" y="60">┌────────────────── <tspan class="title">User Information</tspan> ──────────────────┐</tspan>
-        <tspan x="470" y="90" class="key">    </tspan><tspan> : </tspan><tspan class="value">fer2o3@github</tspan>
-        <tspan x="470" y="120" class="key">    </tspan><tspan> : </tspan><tspan class="value">fer2o3@github</tspan>
-        <tspan x="470" y="150" class="key">    </tspan><tspan> : </tspan><tspan class="value">fer2o3@github</tspan>
-        <tspan x="470" y="180" class="key">    </tspan><tspan> : </tspan><tspan class="value">fer2o3@github</tspan>
+        <tspan x="470" y="60" class="title">benjamin<tspan>@</tspan>andre</tspan><tspan> | </tspan><tspan class="title">fer2o3</tspan>
+        <tspan x="470" y="80">-----------------------</tspan>
+        <tspan x="470" y="100" font-weight="bold">USER ➜</tspan><tspan> Benjamin Andre</tspan>
+        <tspan x="470" y="120">├</tspan><tspan class="key"> Kernel</tspan><tspan class="arrow"> ➜ </tspan><tspan>fer2o3@github</tspan>
+        <tspan x="470" y="140">├</tspan><tspan class="key"> Kernel</tspan><tspan class="arrow"> ➜ </tspan><tspan>fer2o3@github</tspan>
+        <tspan x="470" y="160">└</tspan><tspan class="key"> Kernel</tspan><tspan class="arrow"> ➜ </tspan><tspan>fer2o3@github</tspan>
+        <tspan x="470" y="180"></tspan>
+        <tspan x="470" y="200" font-weight="bold">USER ➜</tspan><tspan> Benjamin Andre</tspan>
+        <tspan x="470" y="220">├</tspan><tspan class="key"> Kernel</tspan><tspan font-weight="bold"> ➜ </tspan><tspan>fer2o3@github</tspan>
+        <tspan x="470" y="240">├</tspan><tspan class="key"> Kernel</tspan><tspan font-weight="bold"> ➜ </tspan><tspan>fer2o3@github</tspan>
+        <tspan x="470" y="260">└</tspan><tspan class="key"> Kernel</tspan><tspan font-weight="bold"> ➜ </tspan><tspan>fer2o3@github</tspan>
     </text>
 
     <defs>
