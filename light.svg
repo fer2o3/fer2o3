@@ -93,7 +93,7 @@
     </defs>
 
     <text font-size="20" fill="var(--fg)">
-        <tspan x="40" y="600" class="title">root@fer2o3# </tspan><textPath href="#typingPath">I want to be the very best, like no one ever was</textPath>
+        <tspan x="40" y="600" class="title">root@fer2o3# </tspan><textPath href="#typingPath">dd if=/dev/urandom of=/dev/null bs=1M count=999</textPath>
     </text>
 
     <text x="-10" y="130" font-size="8" fill="var(--fg)" class="ascii">
