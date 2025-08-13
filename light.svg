@@ -63,37 +63,32 @@
 
     <text x="470" y="80" fill="var(--fg)" class="ascii">
         <tspan x="470" y="100" class="title">benjamin<tspan>@</tspan>andre</tspan><tspan> | </tspan><tspan class="title">fer2o3</tspan><tspan> ———————————————————————— </tspan>
-        <tspan x="470" y="120">├</tspan><tspan class="key"> uptime</tspan><tspan> .............................. </tspan><tspan>21 years</tspan>
-        <tspan x="470" y="140">├</tspan><tspan class="key"> location</tspan><tspan> ....................... </tspan><tspan>paris, france</tspan>
-        <tspan x="470" y="160">├</tspan><tspan class="key"> kernel</tspan><tspan> ........... </tspan><tspan>cryptography, low level dev</tspan>
-        <tspan x="470" y="180">├</tspan><tspan class="key"> status</tspan><tspan> ........................ </tspan><tspan>coffee-powered</tspan>
-        <tspan x="470" y="200">├</tspan><tspan class="key"> studies</tspan><tspan> ....... </tspan><tspan>cyber-security student @ epita</tspan>
-        <tspan x="470" y="220">└</tspan><tspan class="key"> work</tspan><tspan> ................... </tspan><tspan>presales tc @ hp inc.</tspan>
-        <tspan x="470" y="240"></tspan>
+        <tspan x="470" y="120">├</tspan><tspan class="key"> uptime</tspan><tspan id="dots"> .......... </tspan><tspan id="uptime">21 years, 10 months, 21 days</tspan>
+        <tspan x="470" y="140">├</tspan><tspan class="key"> location</tspan><tspan id="dots"> ....................... </tspan><tspan>paris, france</tspan>
+        <tspan x="470" y="160">├</tspan><tspan class="key"> kernel</tspan><tspan id="dots"> ........... </tspan><tspan>cryptography, low level dev</tspan>
+        <tspan x="470" y="180">├</tspan><tspan class="key"> status</tspan><tspan id="dots"> ........................ </tspan><tspan>coffee-powered</tspan>
+        <tspan x="470" y="200">├</tspan><tspan class="key"> studies</tspan><tspan id="dots"> ....... </tspan><tspan>cyber-security student @ epita</tspan>
+        <tspan x="470" y="220">└</tspan><tspan class="key"> work</tspan><tspan id="dots"> ................... </tspan><tspan>presales tc @ hp inc.</tspan>
+        <tspan x="470" y="240"/>
         <tspan x="470" y="260" class="title">dev</tspan><tspan> ———————————————————————————————————————————— </tspan>
-        <tspan x="470" y="280">├</tspan><tspan class="key"> langs</tspan><tspan> ........................ </tspan><tspan>rust, c, python</tspan>
-        <tspan x="470" y="300">├</tspan><tspan class="key"> learning</tspan><tspan> .................. </tspan><tspan>kernel development</tspan>
-        <tspan x="470" y="320">├</tspan><tspan class="key"> creates</tspan><tspan> ............ </tspan><tspan>pointlessly amusing tools</tspan>
-        <tspan x="470" y="340">└</tspan><tspan class="key"> plays</tspan><tspan> ........... </tspan><tspan>ctf, competitive programming</tspan>
-        <tspan x="470" y="360"></tspan>
-        <tspan x="470" y="370" class="title">github stats</tspan><tspan> ——————————————————————————————————— </tspan>
-        <tspan x="470" y="400">├</tspan><tspan class="key"> repos</tspan><tspan> ..................................... </tspan><tspan>15</tspan>
-        <tspan x="470" y="420">├</tspan><tspan class="key"> stars</tspan><tspan> ...................................... </tspan><tspan>0</tspan>
-        <tspan x="470" y="440">├</tspan><tspan class="key"> commits (2025)</tspan><tspan> ........................... </tspan><tspan>112</tspan>
-        <tspan x="470" y="460">├</tspan><tspan class="key"> contributions</tspan><tspan> ............................ </tspan><tspan>650</tspan>
-        <tspan x="470" y="480">├</tspan><tspan class="key"> lines of code</tspan><tspan> ............................ </tspan><tspan>NaN</tspan>
-        <tspan x="470" y="500">└</tspan><tspan class="key"> streak</tspan><tspan> ..................................... </tspan><tspan>1</tspan>
+        <tspan x="470" y="280">├</tspan><tspan class="key"> langs</tspan><tspan id="dots"> ........................ </tspan><tspan>rust, c, python</tspan>
+        <tspan x="470" y="300">├</tspan><tspan class="key"> learning</tspan><tspan id="dots"> .................. </tspan><tspan>kernel development</tspan>
+        <tspan x="470" y="320">├</tspan><tspan class="key"> creates</tspan><tspan id="dots"> ............ </tspan><tspan>pointlessly amusing tools</tspan>
+        <tspan x="470" y="340">└</tspan><tspan class="key"> plays</tspan><tspan id="dots"> ........... </tspan><tspan>ctf, competitive programming</tspan>
+        <tspan x="470" y="360"/>
+        <tspan x="470" y="380" class="title">github stats</tspan><tspan> ——————————————————————————————————— </tspan>
+        <tspan x="470" y="400">├</tspan><tspan class="key"> repos</tspan><tspan id="dots"> ..................................... </tspan><tspan>15</tspan>
+        <tspan x="470" y="420">├</tspan><tspan class="key"> stars</tspan><tspan id="dots"> ...................................... </tspan><tspan>0</tspan>
+        <tspan x="470" y="440">├</tspan><tspan class="key"> commits (2025)</tspan><tspan id="dots"> ........................... </tspan><tspan>112</tspan>
+        <tspan x="470" y="460">├</tspan><tspan class="key"> contributions</tspan><tspan id="dots"> ............................ </tspan><tspan>650</tspan>
+        <tspan x="470" y="480">├</tspan><tspan class="key"> lines of code</tspan><tspan id="dots"> ............................ </tspan><tspan>NaN</tspan>
+        <tspan x="470" y="500">└</tspan><tspan class="key"> streak</tspan><tspan id="dots"> ..................................... </tspan><tspan>1</tspan>
         <tspan x="470" y="535" font-size="24px"><tspan fill="var(--red)">██</tspan><tspan fill="var(--orange)">██</tspan><tspan fill="var(--yellow)">██</tspan><tspan fill="var(--green)">██</tspan><tspan fill="var(--aqua)">██</tspan><tspan fill="var(--blue)">██</tspan><tspan fill="var(--purple)">██</tspan><tspan fill="var(--grey1)">██</tspan></tspan>
     </text>
 
     <defs>
         <path id="typingPath">
-            <animate attributeName="d" 
-                     from="m200,600 h0" 
-                     to="m200,600 h1500" 
-                     dur="5s" 
-                     begin="0s" 
-                     repeatCount="indefinite"/>
+            <animate attributeName="d" from="m200,600 h0" to="m200,600 h1500" dur="5s" begin="0s" repeatCount="indefinite"/>
         </path>
     </defs>
 
