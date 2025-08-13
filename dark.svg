@@ -51,15 +51,6 @@
             font-weight: bold;
         }
 
-        .arrow {
-            font-weight: bold;
-            font-size: 20px;
-        }
-
-        .value {
-            fill: var(--green);
-        }
-
         text, tspan {
             white-space: pre;
         }
