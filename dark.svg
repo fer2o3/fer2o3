@@ -71,7 +71,7 @@
 
     <text x="470" y="80" fill="var(--fg)" class="ascii">
         <tspan x="470" y="095" class="title">benjamin<tspan>@</tspan>andre</tspan><tspan> | </tspan><tspan class="title">fer2o3</tspan><tspan> ———————————————————————— </tspan>
-        <tspan x="470" y="120">├</tspan><tspan class="key"> uptime</tspan><tspan id="dots"> ............ </tspan><tspan id="uptime">22 years, 5 months, 0 days</tspan>
+        <tspan x="470" y="120">├</tspan><tspan class="key"> uptime</tspan><tspan id="dots"> ............ </tspan><tspan id="uptime">22 years, 5 months, 1 days</tspan>
         <tspan x="470" y="140">├</tspan><tspan class="key"> location</tspan><tspan id="dots"> ....................... </tspan><tspan>paris, france</tspan>
         <tspan x="470" y="160">├</tspan><tspan class="key"> kernel</tspan><tspan id="dots"> ........... </tspan><tspan>cryptography, low level dev</tspan>
         <tspan x="470" y="180">├</tspan><tspan class="key"> status</tspan><tspan id="dots"> ........................ </tspan><tspan>coffee-powered</tspan>
@@ -85,11 +85,11 @@
         <tspan x="470" y="350">└</tspan><tspan class="key"> plays</tspan><tspan id="dots"> ........... </tspan><tspan>ctf, competitive programming</tspan>
         <tspan x="470" y="370"/>
         <tspan x="470" y="395" class="title">github stats</tspan><tspan> ——————————————————————————————————— </tspan>
-        <tspan x="470" y="420">├</tspan><tspan class="key"> repos</tspan><tspan id="dots"> ..................................... </tspan><tspan id="repos">11</tspan>
+        <tspan x="470" y="420">├</tspan><tspan class="key"> repos</tspan><tspan id="dots"> ..................................... </tspan><tspan id="repos">12</tspan>
         <tspan x="470" y="440">├</tspan><tspan class="key"> stars</tspan><tspan id="dots"> ...................................... </tspan><tspan id="stars">0</tspan>
         <tspan x="470" y="460">├</tspan><tspan class="key"> commits</tspan><tspan id="dots"> .................................. </tspan><tspan id="commits">124</tspan>
         <tspan x="470" y="480">├</tspan><tspan class="key"> contributions</tspan><tspan id="dots"> ............................ </tspan><tspan id="contributions">142</tspan>
-        <tspan x="470" y="500">└</tspan><tspan class="key"> lines of code</tspan><tspan id="dots"> .............. </tspan><tspan id="add">53824 ++</tspan><tspan id="rem"> 45832 --</tspan>
+        <tspan x="470" y="500">└</tspan><tspan class="key"> lines of code</tspan><tspan id="dots"> .............. </tspan><tspan id="add">53180 ++</tspan><tspan id="rem"> 44236 --</tspan>
         <tspan x="470" y="535" font-size="24px"><tspan fill="var(--red)">██</tspan><tspan fill="var(--orange)">██</tspan><tspan fill="var(--yellow)">██</tspan><tspan fill="var(--green)">██</tspan><tspan fill="var(--aqua)">██</tspan><tspan fill="var(--blue)">██</tspan><tspan fill="var(--purple)">██</tspan><tspan fill="var(--grey1)">██</tspan></tspan>
     </text>
 
